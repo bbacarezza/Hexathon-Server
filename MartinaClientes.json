@@ -1,0 +1,46 @@
+[
+  {
+    "Clinum": "2",
+    "Nombre": "Roberto",
+    "Apellido": "Gomez Bolaños",
+    "FechaNacimiento": "21/2/1929",
+    "Telefono": "171234516",
+    "Mail": "nometienenpaciencia@gmail.com",
+    "Tarjetas": {
+      "Numero": "222",
+      "FechaCreacion": "12/5/2020",
+      "FechaVto": "12/6/2023",
+      "SaldoTotal": "100000",
+      "SaldoDisponible": "20000",
+      "Tipo": "Credito",
+      "Recibo": "",
+      "FechaCierre": "3/4/2023",
+      "Clinum": "1"
+    },
+    "Movimientos": "Nose",
+    "CBU": "20517253125",
+    "Saldo": "20000"
+  },
+  {
+    "Clinum": "3",
+    "Nombre": "Maria Antonieta",
+    "Apellido": "De las Nieves",
+    "FechaNacimiento": "22/12/1950",
+    "Telefono": "171234553",
+    "Mail": "pecasycolitas@gmail.com",
+    "Tarjetas": {
+      "Numero": "333",
+      "FechaCreacion": "12/5/2020",
+      "FechaVto": "12/6/2023",
+      "SaldoTotal": "100000",
+      "SaldoDisponible": "20000",
+      "Tipo": "Credito",
+      "Recibo": "",
+      "FechaCierre": "3/4/2023",
+      "Clinum": "1"
+    },
+    "Movimientos": "Nose",
+    "CBU": "20517323130",
+    "Saldo": "20000"
+  }
+]
