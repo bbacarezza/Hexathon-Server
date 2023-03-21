@@ -7,11 +7,13 @@ export const getResponse = (msg) => {
 
   switch (query) {
     case "saldo":
-      return "Sos pobre, $0";
+      return "Sos pobre, tenes 0 pesos";
     case "tarjetaSaldo":
-      return "Tu saldo disponible es $1500";
+      return "Tu saldo disponible es 1500 pesos";
+    case "tarjetaVenc":
+      return "Tu tarjeta vence el 9 de abril";
     default:
-      return "Tu tarjeta vence el 09-03-23";
+      return "No te entendi, podrias repetirlo?";
   }
 };
 
@@ -20,7 +22,7 @@ const checkIncludes = (arr1, arr2) => {
 };
 
 const selectQuery = (filteredWords) => {
-  let result;
+  let result = "pregunta incorrecta";
   let max = 0;
 
   const arrQSaldo = [checkIncludes(filteredWords, querySaldo).length, "saldo"];
